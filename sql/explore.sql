@@ -42,3 +42,9 @@ FROM listings_raw;
 SELECT COUNT(minimum_nights)
 FROM listings_raw
 WHERE minimum_nights::integer >= 30;
+
+-- Check the clean listings table's new columns
+SELECT listing_name, price, is_superhost, rating, revenue_l365d
+FROM listings
+ORDER BY random()
+LIMIT 5;
