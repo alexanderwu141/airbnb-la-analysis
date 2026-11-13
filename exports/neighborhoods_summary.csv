@@ -1,0 +1,112 @@
+neighborhood,area,listings,median_price,median_revenue,median_nights,label
+Alhambra,Other Cities,476,223,25372,132,Premium
+Altadena,Unincorporated Areas,60,239,14538,60,Over-priced
+Arcadia,Other Cities,98,156,12563,73,Budget
+Atwater Village,City of Los Angeles,55,252,30430,126,Premium
+Avalon,Other Cities,159,751,66378,114,Premium
+Azusa,Other Cities,79,202,13249,72,Budget
+Baldwin Park,Other Cities,113,147,11592,78,Budget
+Beverly Crest,City of Los Angeles,64,728,43265,69,Premium
+Beverly Grove,City of Los Angeles,158,326,33434,117,Premium
+Beverly Hills,Other Cities,375,313,19152,66,Over-priced
+Boyle Heights,City of Los Angeles,58,144,8473,111,Budget
+Brentwood,City of Los Angeles,57,183,16884,62,Budget
+Burbank,Other Cities,464,229,28560,128,Premium
+Calabasas,Other Cities,75,256,19074,62,Over-priced
+Carson,Other Cities,72,161,10620,60,Budget
+Carthay,City of Los Angeles,52,246,26115,120,Premium
+Compton,Other Cities,53,247,27795,108,Premium
+Covina,Other Cities,72,137,10593,78,Budget
+Culver City,Other Cities,497,277,33431,132,Premium
+Del Rey,City of Los Angeles,113,219,22872,120,Premium
+Downey,Other Cities,110,184,21121,117,Budget
+Downtown,City of Los Angeles,388,220,17900,90,Over-priced
+Eagle Rock,City of Los Angeles,81,195,25874,124,Hidden gem
+East Hollywood,City of Los Angeles,150,161,12900,72,Budget
+East Los Angeles,Unincorporated Areas,307,228,31515,162,Premium
+East Pasadena,Unincorporated Areas,61,210,27795,120,Hidden gem
+East San Gabriel,Unincorporated Areas,94,144,11286,82,Budget
+Echo Park,City of Los Angeles,163,195,22176,120,Hidden gem
+El Monte,Other Cities,219,135,13878,90,Budget
+El Segundo,Other Cities,64,155,19008,124,Budget
+Encino,City of Los Angeles,94,210,22626,120,Premium
+Exposition Park,City of Los Angeles,255,45,3126,62,Budget
+Fairfax,City of Los Angeles,117,280,23376,96,Premium
+Gardena,Other Cities,83,178,15629,84,Budget
+Glassell Park,City of Los Angeles,50,232,24807,147,Premium
+Glendale,Other Cities,443,233,19743,90,Over-priced
+Glendora,Other Cities,91,253,25326,96,Premium
+Hacienda Heights,Unincorporated Areas,185,180,13104,102,Budget
+Hawthorne,Other Cities,196,205,27402,126,Hidden gem
+Hermosa Beach,Other Cities,182,384,26509,66,Premium
+Highland Park,City of Los Angeles,111,190,23220,124,Hidden gem
+Hollywood,City of Los Angeles,659,212,17754,120,Over-priced
+Hollywood Hills,City of Los Angeles,302,308,30369,120,Premium
+Hollywood Hills West,City of Los Angeles,230,705,59255,96,Premium
+Hyde Park,City of Los Angeles,91,147,12876,102,Budget
+Inglewood,Other Cities,237,189,16896,84,Budget
+Koreatown,City of Los Angeles,209,122,12096,84,Budget
+Lake Balboa,City of Los Angeles,60,151,18631,120,Budget
+Lancaster,Other Cities,270,85,4974,48,Budget
+Lawndale,Other Cities,76,235,20645,93,Over-priced
+Lennox,Unincorporated Areas,56,247,35754,159,Premium
+Long Beach,Other Cities,1144,241,28833,124,Premium
+Los Feliz,City of Los Angeles,111,223,26280,120,Premium
+Malibu,Other Cities,177,703,74688,114,Premium
+Manhattan Beach,Other Cities,281,522,61425,120,Premium
+Mar Vista,City of Los Angeles,128,195,22713,120,Hidden gem
+Marina del Rey,Unincorporated Areas,208,378,24046,66,Premium
+Mid-City,City of Los Angeles,250,153,17549,120,Budget
+Mid-Wilshire,City of Los Angeles,155,169,18480,120,Budget
+Monrovia,Other Cities,154,215,16301,72,Over-priced
+Monterey Park,Other Cities,226,174,21794,138,Hidden gem
+Mount Washington,City of Los Angeles,57,256,22953,96,Premium
+North Hollywood,City of Los Angeles,193,160,21397,132,Budget
+Northridge,City of Los Angeles,61,243,15581,60,Over-priced
+Norwalk,Other Cities,64,153,25194,180,Hidden gem
+Palmdale,Other Cities,115,102,4800,42,Budget
+Palms,City of Los Angeles,91,126,11239,108,Budget
+Pasadena,Other Cities,502,225,24529,108,Premium
+Pico Rivera,Other Cities,50,230,16973,60,Over-priced
+Pico-Robertson,City of Los Angeles,114,206,12652,60,Budget
+Pico-Union,City of Los Angeles,51,125,8220,120,Budget
+Pomona,Other Cities,102,188,13136,102,Budget
+Redondo Beach,Other Cities,248,236,21564,102,Premium
+Reseda,City of Los Angeles,73,138,16540,120,Budget
+Rosemead,Other Cities,63,155,13200,96,Budget
+Rowland Heights,Unincorporated Areas,339,129,10910,78,Budget
+San Gabriel,Other Cities,151,203,17188,102,Budget
+San Pedro,City of Los Angeles,68,180,21384,120,Budget
+Santa Clarita,Other Cities,205,222,18258,84,Over-priced
+Santa Monica,Other Cities,742,299,32891,124,Premium
+Sawtelle,City of Los Angeles,103,169,21813,120,Hidden gem
+Sherman Oaks,City of Los Angeles,212,242,23987,117,Premium
+Silver Lake,City of Los Angeles,219,208,31884,168,Hidden gem
+South Pasadena,Other Cities,72,235,25227,117,Premium
+South San Gabriel,Unincorporated Areas,50,150,24155,135,Hidden gem
+Studio City,City of Los Angeles,171,266,27221,104,Premium
+Tarzana,City of Los Angeles,73,339,26318,114,Premium
+Temple City,Other Cities,57,197,20566,102,Budget
+Topanga,Unincorporated Areas,257,333,34902,108,Premium
+Torrance,Other Cities,217,198,15312,72,Budget
+Unincorporated Santa Monica Mountains,Unincorporated Areas,115,480,45892,90,Premium
+Valley Glen,City of Los Angeles,83,313,30004,124,Premium
+Valley Village,City of Los Angeles,62,257,18814,60,Over-priced
+Van Nuys,City of Los Angeles,84,188,18968,120,Budget
+Venice,City of Los Angeles,669,304,31248,120,Premium
+Vermont Square,City of Los Angeles,62,129,16094,124,Budget
+Vernon,Other Cities,136,311,27102,129,Premium
+Veterans Administration,Unincorporated Areas,50,447,41223,93,Premium
+View Park-Windsor Hills,Unincorporated Areas,141,232,28080,120,Premium
+West Adams,City of Los Angeles,62,201,20319,120,Budget
+West Covina,Other Cities,136,193,16107,102,Budget
+West Hills,City of Los Angeles,76,264,20527,120,Over-priced
+West Hollywood,Other Cities,724,286,33820,126,Premium
+West Los Angeles,City of Los Angeles,91,161,19136,120,Budget
+Westchester,City of Los Angeles,100,198,23438,120,Hidden gem
+Westlake,City of Los Angeles,127,135,10800,102,Budget
+Westmont,Unincorporated Areas,69,258,28426,114,Premium
+Westwood,City of Los Angeles,133,146,11670,62,Budget
+Whittier,Other Cities,82,213,25470,114,Premium
+Winnetka,City of Los Angeles,53,142,22275,132,Hidden gem
+Woodland Hills,City of Los Angeles,197,255,21794,78,Premium

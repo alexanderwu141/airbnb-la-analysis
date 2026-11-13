@@ -19,7 +19,7 @@ FROM listings_raw
 ORDER BY price_length DESC
 LIMIT 10;
 
--- The 10 neighbourhoods with the most listings, with their group.
+-- The 10 neighborhoods with the most listings, with their group.
 SELECT
     neighbourhood_cleansed,
     COUNT(*) AS counts
@@ -48,3 +48,29 @@ SELECT listing_name, price, is_superhost, rating, revenue_l365d
 FROM listings
 ORDER BY random()
 LIMIT 5;
+
+-- Check: host_listings vs listings in active
+-- host_listings counts ALL of a host's LA listings, before my filters.
+-- Example: host 95543 has host_listings = 11 but only 6 rows in active.
+-- Decision: keep host_listings as host size (it measures how big the business is).
+
+-- Host 99543's listings after filtering for active listings
+SELECT listing_id, host_id, host_listings
+FROM active
+WHERE host_id = 95543;
+
+-- Host 99543's listings before filtering
+SELECT listing_id, host_id, host_listings
+FROM listings
+WHERE host_id = 95543;
+
+-- Host 99543's listings excluded after filtering
+SELECT
+    l.listing_id, 
+    l.host_id, 
+    l.host_listings
+FROM listings AS l
+LEFT JOIN active AS a
+    ON a.listing_id = l.listing_id
+WHERE a.listing_id IS NULL
+  AND l.host_id = 95543;

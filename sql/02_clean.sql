@@ -8,7 +8,7 @@ SELECT
     host_id::bigint                                 AS host_id,
     host_is_superhost = 't'                         AS is_superhost,
     to_num(calculated_host_listings_count)::int     AS host_listings,
-    neighbourhood_cleansed                          AS neighbourhood,
+    neighbourhood_cleansed                          AS neighborhood,
     neighbourhood_group_cleansed                    AS area,
     to_num(latitude)                                AS latitude,
     to_num(longitude)                               AS longitude,
