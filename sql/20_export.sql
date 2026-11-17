@@ -1,7 +1,9 @@
 -- 20_export.sql : the two tables Tableau reads.
 -- Run from the repo folder:
 --   psql airbnb -v ON_ERROR_STOP=1 -f sql/20_export.sql
--- then write the CSVs with the two \copy lines in the README.
+-- then write the CSVs (each \copy on one line):
+--   psql airbnb -c "\copy (SELECT * FROM export_listings) TO 'exports/listings_active.csv' CSV HEADER"
+--   psql airbnb -c "\copy (SELECT * FROM export_neighborhoods) TO 'exports/neighborhoods_summary.csv' CSV HEADER"
 -- Re-run this file after 02_clean.sql and 03_active.sql (CASCADE drops these views).
 
 
@@ -20,7 +22,7 @@ SELECT
     revenue_l365d,
     rating,
     is_superhost,
-    -- same pool rule as Q8 in 10_q1_market.sql
+    -- same pool rule as Q8 in 10_analysis.sql
     (amenities::text ILIKE '%"Pool"%'
      OR amenities::text ILIKE '%"Private pool"%'
      OR amenities::text ILIKE '%"Private outdoor pool%') AS has_pool
