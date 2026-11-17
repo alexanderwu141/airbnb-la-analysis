@@ -1,5 +1,7 @@
-   -- 10_analysis.sql : the analysis questions (Q1-Q8), run on the active view.
-   -- Run from the repo folder:  psql airbnb -f sql/10_analysis.sql
+-- 10_analysis.sql : the analysis questions (Q1-Q8), run on the active view.
+-- Run from the repo folder:  psql airbnb -f sql/10_analysis.sql
+-- Neighborhood rankings (Q3, Q5, Q6) only include neighborhoods with 50+ active
+-- listings, so a handful of listings can't top a ranking by luck.
 
 -- Q1a: Are private rooms or entire homes more expensive? (by area)
 SELECT
@@ -157,7 +159,7 @@ FROM ranked
 ORDER BY gap
 LIMIT 10;
 -- Result: Norwalk, South San Gabriel, and Winnetka are the leaders in gap. Their price ranks
--- are near the bottom with price_rank 91, 93, and 99 respectively with modest revenues. Silverlake,
+-- are near the bottom with price_rank 91, 93, and 99 respectively with modest revenues. Silver Lake,
 -- Hawthorne, and East Los Angeles are also in the top 10 hidden gems with more listings.
 
 
@@ -230,5 +232,5 @@ GROUP BY has_pool, has_free_parking
 ORDER BY has_pool, has_free_parking;
 -- Result: Among 2-bedroom listings with free parking, those with a pool charge a median
 -- $373 vs $282 without (+32%, 567 vs 3,757 listings). Free parking on its own doesn't
--- raise prices: it's more common in cheaper suburban areas. The no-parking groups
+-- raise prices: probably because it's more common in cheaper suburban areas. The no-parking groups
 -- are small though (396 and 69 listings).
