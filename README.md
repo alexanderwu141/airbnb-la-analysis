@@ -62,7 +62,6 @@ sql/20_export.sql     views exported for Tableau
 sql/explore.sql       exploration and data checks
 exports/              the two CSVs behind the dashboard
 images/dashboard.png  png of dashboard
-memo.md               one-page summary for homeowners
 ```
 
 ## How to reproduce
