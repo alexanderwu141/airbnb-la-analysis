@@ -1,8 +1,5 @@
--- 10_q1_market.sql : analysis questions, run on the active view.
--- Run from the repo folder:  psql airbnb -f sql/10_q1_market.sql
--- Neighborhood rankings only include neighborhoods with at least 50 active
--- listings, so a handful of listings can't top a chart by luck.
-
+   -- 10_analysis.sql : the analysis questions (Q1-Q8), run on the active view.
+   -- Run from the repo folder:  psql airbnb -f sql/10_analysis.sql
 
 -- Q1a: Are private rooms or entire homes more expensive? (by area)
 SELECT
