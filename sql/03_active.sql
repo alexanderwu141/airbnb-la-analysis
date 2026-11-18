@@ -1,4 +1,4 @@
--- 03_active.sql : the listings the analysis uses (justification explained in README).
+-- 03_active.sql : the listings the analysis uses (justification explained in data/README.md).
 CREATE OR REPLACE VIEW active AS
 SELECT *
 FROM listings

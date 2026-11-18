@@ -37,6 +37,8 @@ to dates.
 | Entire homes and private rooms only | 35,402 |
 | At least one review in the last 12 months | 22,252 |
 
+Justification for each filter is in [data/README.md](data/README.md).
+
 **4. Analyse** (`sql/10_analysis.sql`). Used medians rather than averages, because a few very expensive listings could pull averages up. Neighborhood rankings include only neighborhoods with 50+ active listings.
 
 **5. Visualise** (`sql/20_export.sql`, Tableau Public). Two views were exported to CSV, one row per listing and one per neighborhood, and built into the dashboard.
